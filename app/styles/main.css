@@ -34,7 +34,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 900px;
   }
 }
 .container-narrow > hr {
@@ -76,4 +76,54 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  /* Non-scaffold css */
+
+    .selling-points {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .selling-points .col-md-4 {
+        width: 33%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .selling-points p {
+
+    }
+
+    .our-work {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row iframe {
+        width: 50%;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .our-work h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .projects {
+        width: 45%;
+        height: 100%;
+        float: right;
+        margin: 0 auto;
+        background-color: red;
+    }
+
+    .projects .single-project {
+        width: 45%;
+        height: 50%;
+        display: inline-block;
+    }
+
 }

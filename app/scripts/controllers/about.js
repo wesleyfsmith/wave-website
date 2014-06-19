@@ -2,16 +2,21 @@
 
 /**
  * @ngdoc function
- * @name waveWebsiteApp.controller:MainCtrl
+ * @name waveWebsiteApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the waveWebsiteApp
  */
 angular.module('waveWebsiteApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
   });
+
+angular.module('waveWebsiteApp')
+    .controller('ProjectsCtrl', function ($scope) {
+
+    });
