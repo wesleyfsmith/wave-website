@@ -12,10 +12,6 @@
  * Controller of the waveWebsiteApp
  */
 angular.module('waveWebsiteApp')
-    .controller('ContactCtrl', function ($scope) {
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
+    .controller('ContactCtrl', function () {
+
     });

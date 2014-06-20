@@ -12,6 +12,6 @@
  * Controller of the waveWebsiteApp
  */
 angular.module('waveWebsiteApp')
-    .controller('ProjectsCtrl', function ($scope) {
+    .controller('ProjectsCtrl', function () {
 
     });
